@@ -1,0 +1,335 @@
+html, body{
+    height:100%;
+    width: 100%;
+}
+.top-banner{
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #173300;
+    color: white;
+    font-family: 'IM Fell French Canon', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Averia Serif Libre', sans-serif;
+    margin-top: 20px;
+}
+.logo{
+    font-size: 27px;
+    margin-left: 10%;
+    font-style: italic;
+    font-weight: 700;
+}
+.shift{
+    margin-right: auto;
+    margin-left: 2%;
+}
+.menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:5%
+}
+.navigation{
+    color:initial;
+    text-decoration:none;
+    font-family: 'Averia Serif Libre', sans-serif;
+}
+.active{
+    border-bottom: 3px solid #9EE86F;
+}
+.special-menu-item{
+    background-color: #9EE86F;
+    padding:5px 30px;
+    border:solid transparent;
+    background-clip: padding-box;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.banner{
+    padding:50px 50px;
+    text-align: center;
+    font-family: sans-serif ;
+    font-size:50px;
+    font-weight: 900;
+}
+.banner-bottom{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    padding: 30px 0;
+}
+.flex{
+    display:flex;
+    font-size:25px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.background{
+    background-color: initial;
+    border:1px solid;
+    margin-right:20px;
+    margin-top: 10px;
+}
+.color{
+    background-color: #9EE86F;
+    cursor: pointer;
+}
+.image-map{
+    width:40%;
+    height:410px;
+}
+.flexdisplay{
+    display:flex;
+    margin: 70px 80px;
+    position: relative;
+}
+.text{
+    font-family: 'Averia Serif Libre', sans-serif;
+    width:40%;
+}
+.text-header{
+    font-size: 35px;
+    font-family: 'Averia Serif Libre', sans-serif;
+    font-weight: 900;
+}
+.promotion-images{
+    padding-left: 14%;
+    width:60%
+}
+.promotion-image{
+    width:100%;
+    height:410px;
+    border-radius: 10px;
+}
+.sec-promo-image{
+    position: absolute;
+    top:200px;
+    right: 37%;
+    z-index: 100;
+    background-color: transparent;
+    padding-bottom: 50px;
+}
+.df-form{
+    box-shadow: 4px 4px 10px rgba(158, 232, 111, 1), -4px -4px 10px rgba(158, 232, 111, 1);
+    border-radius: 10px;
+    margin: 50px 0;
+}
+.box-shadow{
+    box-shadow: 4px 4px 10px rgba(158, 232, 111, 1), -4px -4px 10px rgba(158, 232, 111, 1);
+}
+.displayflex{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.label-style{
+    margin-right: 50px;
+    margin-left: 50px;
+    width:30%
+}
+.input-style{
+    border: 1px solid;
+    border-radius: 7px;
+    margin-right: 50px;
+    padding:1px
+}
+.caption-style{
+    padding: 20px 20px;
+    font-weight: 900;
+}
+.padding-btm{
+    padding-bottom:50px
+}
+.open-account{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.sofia-font{
+    font-family: 'Sofia', sans-serif ;
+}
+.register-login{
+    margin-bottom:20px;
+}
+.cursor{
+    cursor: pointer;
+}
+.error{
+    color:red;
+    padding:0 0;
+    display:flex;
+    font-size:14px;
+}
+.sec-error{
+    width:50%
+}
+.home{
+    display:flex;;
+}
+.aside{
+    background-color:#F3F5F7;
+    width: 25%;
+    color: white;
+    font-size: xx-large;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Sofia', serif;
+}
+.typewriter{
+    margin:0 20px;
+    height: 100px;
+    font-weight: bolder;
+    color: black;
+}
+.bg-white{
+    background-color: #f9f9f9;
+    color:black
+}
+.home-body{
+    width: 75%;
+}
+.account-balance{
+    height:35%;
+    color: white
+}
+.amount{
+    text-align:center;
+    font-size: xx-large;
+    color:black;
+    padding-top:5%;
+    font-family: 'Averia Serif Libre', serif;
+}
+.transaction-menu{
+    padding: 9.5%
+}
+.transaction-menu-item{
+    color:black;
+    width:29%;
+    margin-right: 8%;
+    border: 1px solid rgba(158, 232, 111, 1);
+    text-align:center;
+    font-size:100px;
+    background-color:  rgba(158, 232, 111, 1);
+    border-radius: 10px;
+}
+.transac-cont{
+    margin-right: 8%;
+}
+.history{
+    margin-right: 0;
+}
+.transaction-names{
+    padding:15px;
+    font-size:20px;
+    font-family:'Varela', sans-serif;
+}
+.register-cont{
+    display: flex;
+    justify-content: center;
+}
+/**********transactions page**********/
+.field{
+    font-size: 50px;
+}
+.navigation-bar{
+    background-color: #173300;
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+.heading{
+    width:88%;
+    margin-left: 15px;
+}
+.info{
+    width:6%;
+    background-color: rgba(158, 232, 111, 1);
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    font-weight:bold;
+}
+.logout{
+    border-radius: 5px;
+    width:6%;
+    background-color: rgba(158, 232, 111, 1);
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    height: 30px;
+    padding:0 20px;
+    color:black;
+    font-weight:bold;
+}
+.body{
+    display:flex;
+    height: 89.84%;
+}
+.second-aside{
+    width:22%;
+    background-color: #F3F5F7;
+    height: 100%;
+    box-shadow: 4px 4px 10px rgba(158, 232, 111, 1);
+    z-index:100;
+}
+.centered{
+    width:56%;
+    height:100%;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+.aside-title{
+    display:flex;
+    height:30px;
+}
+.filter-expense{
+    width:70%;
+    font-size: 14px;
+    padding-top:20px;
+    padding-left:20px;
+}
+.clear-filter{
+    width:30%;
+    font-size: 14px;
+    padding-top:20px;
+}
+.form-container{
+    padding-top:10px;
+    padding-left: 20px;
+}
+.fixed{
+    border-radius:50%;
+    width:57px;
+    height:57px;
+    background-color:rgba(158, 232, 111, 1);
+    position:fixed;
+    left:71%;
+    top:86%;
+    z-index: 100;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    transform:translate(-29%,-14%);
+    box-shadow:0 0 7px black;
+    cursor:pointer;
+}

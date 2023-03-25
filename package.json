@@ -1,0 +1,49 @@
+{
+  "name": "veegilmediatest",
+  "version": "1.0.0",
+  "description": "bank-app-prototype",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w server server/server.js",
+    "build": "webpack -w"
+  },
+  "keywords": [
+    "Joseph"
+  ],
+  "author": "joseph",
+  "license": "ISC",
+  "homepage": "/",
+  "dependencies": {
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "animate.css": "^4.1.1",
+    "babel-loader": "^8.2.5",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.2.0",
+    "coverflow-react": "^0.1.28",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2",
+    "source-map-loader": "^4.0.1",
+    "typewriter-effect": "^2.19.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
